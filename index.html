@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
         <!--Make sure to replace 'path/to/your/model.gltf'
  with the actual path to your 3D model (in GLTF format) that you want to display on the website. Also, ensure that you have Three.js library included in your project by using the provided CDN link.
@@ -20,7 +19,7 @@ This basic HTML page sets up a Three.js scene, loads a 3D model, adds lighting, 
         }
     </style>
 </head>
-<body>
+<body>Diplay this
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.132.2/three.min.js"></script>
     <script>
         // Create a scene
@@ -37,7 +36,7 @@ This basic HTML page sets up a Three.js scene, loads a 3D model, adds lighting, 
 
         // Load 3D model
         const loader = new THREE.GLTFLoader();
-        loader.load('path/to/your/model.gltf', function (gltf) {
+        loader.load('kosko/model1.gltf', function (gltf) {
             scene.add(gltf.scene);
         });
 
